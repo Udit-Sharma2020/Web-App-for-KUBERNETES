@@ -78,6 +78,9 @@ function ask() {
     else if ((arr.indexOf("kubectl") > -1)) {
         docker();
     }
+    else if ((arr.indexOf("docker") > -1)) {
+        docker();
+    }
     else if (((arr.indexOf("list") > -1)|| (arr.indexOf("show") > -1) || (arr.indexOf("display") > -1)) && ((arr.indexOf("pod") > -1) || (arr.indexOf("pods") > -1)|| (arr.indexOf("svc") > -1) || (arr.indexOf("deploy") > -1)|| (arr.indexOf("deployment") > -1)|| (arr.indexOf("containers") > -1)|| (arr.indexOf("service") > -1))) {
         docker();
     }
